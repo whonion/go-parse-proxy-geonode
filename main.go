@@ -34,6 +34,9 @@ type Proxy struct {
 }
 
 func main() {
+	GetFreeProxyList()
+}
+func GetFreeProxyList() {
 	// Open the JSON file
 	file, err := os.Open("Free_Proxy_List.json")
 	if err != nil {
