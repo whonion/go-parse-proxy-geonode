@@ -14,7 +14,7 @@ Parsing a json file with a list of proxies from [geonode.com](https://geonode.co
 [lint-url]: https://github.com/whonion/go-parse-proxy-geonode/actions/workflows/lint.yml
 
 [test-badge]: https://github.com/whonion/go-parse-proxy-geonode/actions/workflows/test.yml/badge.svg
-[test-url]: https://github.com/whonion/go-parse-proxy-geonode/actions/workflows/Test.yml
+[test-url]: https://github.com/whonion/go-parse-proxy-geonode/actions/workflows/test.yml
 
 [build-badge]: https://github.com/whonion/go-parse-proxy-geonode/actions/workflows/build.yml/badge.svg
 [build-url]: https://github.com/whonion/go-parse-proxy-geonode/actions/workflows/build.yml
