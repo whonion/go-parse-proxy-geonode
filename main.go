@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"os"
 	"strings"
 )
@@ -46,7 +46,7 @@ func GetFreeProxyList() {
 	defer file.Close()
 
 	// Read the file contents into a byte slice
-	bytes, err := ioutil.ReadAll(file)
+	bytes, err := io.ReadAll(file)
 	if err != nil {
 		fmt.Println(err)
 		return
