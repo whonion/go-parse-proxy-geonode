@@ -1,0 +1,10 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+* linguist-language=go
+Makefile linguist-detectable=false
+#*.yaml linguist-detectable=false
+# *.sh linguist-detectable=true
+# *.md linguist-detectable=true
+# *.py linguist-detectable=false
+# *.ini linguist-detectable=true
+# *.txt linguist-detectable=false
